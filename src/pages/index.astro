@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+// Reemplaza "App" y la ruta si tu componente principal se llama diferente (ej: Header, Hero, Footer si están sueltos)
+import App from "../components/App.jsx";
+---
+
+<Layout>
+	<!-- La directiva client:load es vital para que los estados y useEffects de React funcionen -->
+	<App client:load />
+</Layout>
