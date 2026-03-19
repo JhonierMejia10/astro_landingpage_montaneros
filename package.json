@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "llantas-montaneros",
   "type": "module",
   "version": "0.0.1",
   "engines": {
@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@astrojs/react": "^5.0.1",
+    "@astrojs/vercel": "^10.0.1",
     "@tailwindcss/vite": "^4.2.2",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
